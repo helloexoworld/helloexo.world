@@ -1,0 +1,29 @@
+ .welcome {
+     text-align: center;
+     background: url('wallpaper.png') no-repeat center center fixed;
+     -webkit-background-size: cover;
+     -moz-background-size: cover;
+     -o-background-size: cover;
+     background-size: cover;
+     height: 450px;
+     
+ }
+
+ body {
+     text-align: center;
+ }
+
+ .welcometitle {
+     padding-top: 130px;
+     text-align: center;
+     margin-bottom: 50px;
+ }
+
+ .what-are-exo {
+     margin-top: 50px;
+ }
+
+ .animation {
+     max-width: 400px;
+     max-height: 500px;
+ }
