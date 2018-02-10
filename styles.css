@@ -1,29 +1,37 @@
- .welcome {
-     text-align: center;
-     background: url('wallpaper.png') no-repeat center center fixed;
-     -webkit-background-size: cover;
-     -moz-background-size: cover;
-     -o-background-size: cover;
-     background-size: cover;
-     height: 450px;
-     
- }
+* {
+    scroll-behavior: smooth;
+}
+
+.welcome {
+    text-align: center;
+    background: url('img/wallpaper.png') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 100vh;
+}
+
+#goto-content {
+    position: absolute;
+    bottom: 2em;
+}
+
+.doc-content {
+    width: 80vw;
+    margin: 3em 10vw;
+}
 
  body {
      text-align: center;
  }
 
  .welcometitle {
-     padding-top: 130px;
+     padding-top: 40vh;
      text-align: center;
-     margin-bottom: 50px;
+     margin-bottom: 3em;
  }
 
- .what-are-exo {
-     margin-top: 50px;
- }
-
- .animation {
-     max-width: 400px;
-     max-height: 500px;
+ .welcometitle h1 {
+     font-size: 4em;
  }

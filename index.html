@@ -1,65 +1,119 @@
 <!doctype html>
 
 <html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>HelloExoWorld</title>
+        <meta name="description" content="HelloExoWorld">
+        <link rel="stylesheet" href="spectre.min.css">
+        <link rel="stylesheet" href="spectre-exp.min.css">
+        <link rel="stylesheet" href="spectre-icons.min.css">
+        <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <div class="container welcome text-light">
+            <div class="columns centered welcometitle">
+                <h1>HelloExoWorld</h1>
+            </div>
+            <div class="columns centered">
+                <h2>The quest to search for exoplanets with Warp10 and TensorFlow</h2>
+            </div>
+            <a id="goto-content" href="#what-are" class="text-light"><i class="icon icon-arrow-down icon-4x"></i></a>
+        </div>
 
-<head>
-    <meta charset="utf-8">
-    <title>HelloExoWorld</title>
-    <meta name="description" content="HelloExoWorld">
-    <link rel="stylesheet" href="spectre.min.css">
-    <link rel="stylesheet" href="spectre-exp.min.css">
-    <link rel="stylesheet" href="spectre-icons.min.css">
-    <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
-    <link rel="stylesheet" href="styles.css">
-</head>
+        <div id="what-are" class="container columns doc-content">
+            
+            <div class="column col-lg-12 col-xl-4">
+                <div class="card">
+                    <div class="card-image">
+                        <img src="img/ocean-sun.jpg" class="img-responsive" style="margin: 0 auto;">
+                    </div>
+                    <div class="card-header">
+                        <div class="card-title h2">What are exoplanets?</div>
+                    </div>
+                    <div class="card-body">
+                            Exoplanets are planets that are located outside the solar system, orbiting one (or more!) stars. We can find
+                            them using the <a href="https://en.wikipedia.org/wiki/Methods_of_detecting_exoplanets#Transit_photometry" target="_blank">Transit method</a>,
+                            meaning that when the planet is going in front of the star, we can detect a drop into the photometry.
+                    </div>
+                </div>
+                <br/>
+            </div>
+            <div class="column col-lg-12 col-xl-4">
+                <div class="card">
+                    <div class="card-image">
+                        <img src="img/Warp10.png" class="img-responsive" style="margin: 0 auto;">
+                    </div>
+                    <div class="card-header">
+                        <div class="card-title h2">What is Warp10?</div>
+                    </div>
+                    <div class="card-body">
+                        <a href="http://www.warp10.io" target="_blank">Warp10</a> is an open-source platform specifically designed to store and analysis
+                        timeseries data. It comes with his own language called WarpScript, which has more than 800 functions
+                        designed to manipulate your data. Things like FFT, DTW and other signal processing stuff are available
+                        through a simple API.
+                    </div>
+                </div>
+                <br/>
+            </div>
+            <div class="column col-lg-12 col-xl-4">
+                <div class="card">
+                    <div class="card-image">
+                        <img src="img/tensorflow-logo.png" class="img-responsive" style="max-width: 100%; margin: 0 auto;">
+                    </div>
+                    <div class="card-header">
+                        <div class="card-title h2">What is TensorFlow?</div>
+                    </div>
+                    <div class="card-body">
+                            <a href="https://www.tensorflow.org/" target="_blank">TensorFlow</a> is a open-source to create deep learning applications. Deep learning provide new tools to manipulate and analyze time-series data using machine learning approach.
+                    </div>
+                </div>
+                <br/>
+            </div>
 
-<body>
-    <div class="container welcome text-light">
-        <div class="columns centered welcometitle">
-            <h1>HelloExoWorld</h1>
         </div>
-        <div class="columns centered">
-            <h4>The quest to search for exoplanets with Warp10 and TensorFlow</h4>
-        </div>
-    </div>
-    <div class="container">
-        <div class="columns what-are-exo">
-            <div class="column col-md-12 col-lg-4">
-                <h1>What are exoplanets?</h1>
-                <p>Exoplanets are planets that are located outside the solar system, orbiting one (or more!) stars. We can find
-                    them using the <a href="https://en.wikipedia.org/wiki/Methods_of_detecting_exoplanets#Transit_photometry">Transit method</a>,
-                    meaning that when the planet is going in front of the star, we can detect a drop into the photometry.</p>
-            </div>
-            <div class="divider-vert"></div>
-            <div class="column col-md-12 col-lg-4">
-                <h1>What is Warp10? </h1>
-                <p><a href="http://www.warp10.io">Warp10</a> is an open-source platform specifically designed to store and analysis
-                    timeseries data. It comes with his own language called WarpScript, which has more than 800 functions
-                    designed to manipulate your data. Things like FFT, DTW and other signal processing stuff are available
-                    through a simple API.
-                    <p>
-            </div>
-            <div class="divider-vert"></div>
-            <div class="column col-md-12 col-lg-4">
-                <h1>What is TensorFlow?</h1>
-                <p><a href="https://www.tensorflow.org/">TensorFlow</a> is a open-source to create deep learning applications. Deep learning provide new tools to manipulate and analyze time-series data using machine learning approach.</p>
-            </div>
-        </div>
-        <div class="divider"></div>
-        <div class="columns what-are-exo">
-            <div class="column col-12">
+
+        <i class="icon icon-minus icon-4x centered"></i
+        <div class="container columns doc-content">
+            <div class="column col-6 col-mx-auto">
                 <h1>Our goal</h1>
                 <p>We are not astrophysicists. Not by far, we are developers, and WarpScript users looking for timeseries challenges.
-                    We want to try another approach than Python. We want to give a try to new technologies like Warp10 and TensorFlow. And we want to have fun!</p>
+                We want to try another approach than Python. We want to give a try to new technologies like Warp10 and TensorFlow. And we want to have fun!</p>
             </div>
         </div>
-        <div class="divider"></div>
-        <h1 class="what-are-exo {
-">Join us!</h1>
-        <div class="columns what-are-exo">
-            
+
+        <i class="icon icon-minus icon-4x centered"></i>
+        <h1>Meet us!</h1>
+        <div id="meet-us" class="container columns doc-content">
+            <div class="column col-lg-12 col-xl-6">
+                <div class="card">
+                    <div class="card-image">
+                        <a href="https://www.devoxx.fr/" target="_blank"><img src="img/logo_devoxx_france_big.jpg" class="img-responsive" style="margin: 0 auto;"></a>
+                    </div>
+                    <div class="card-header">
+                        <div class="card-title h2">Devoxx France 2018</div>
+                    </div>
+                </div>
+                <br/>
+            </div>
+            <div class="column col-lg-12 col-xl-6">
+                <div class="card">
+                    <div class="card-image">
+                        <a href="http://www.breizhcamp.org/" target="_blank"><img src="img/doloreanBTTC.png" class="img-responsive"></a>
+                    </div>
+                    <div class="card-header">
+                        <div class="card-title h2">BreizhCamp 2018</div>
+                    </div>
+                </div>
+                <br/>
+            </div>
+        </div>
+
+        <i class="icon icon-minus icon-4x centered"></i>
+        <h1>Join us!</h1>
+        <div class="container columns doc-content">
             <div class="column col-md-6 col-lg-3">
-                
                 <h3><a href="https://medium.com/helloexoworld"><i class="fab fa-medium-m fa-3x"></i></a></h3>
             </div>
             <div class="column col-md-6 col-lg-3">
@@ -75,11 +129,8 @@
                 <h3><a target="_blank" href="https://twitter.com/home?status=Hey%20%40HelloExoWorld,%20I%20would%20like%20to%20have%20an%20invitation%20to%20join%20Slack!"><i class="fab fa-slack fa-3x"></i></a></h3>
             </div>
         </div>
-    </div>
-    <div class="divider"></div>
-    <p>Available on <a href="https://github.com/helloexoworld/helloexo.world">GitHub</a><p>
 
-    </footer>
-</body>
-
+        <div class="divider"></div>
+        <p>This site is proudly hosted on <a target="_blank" href="https://www.clever-cloud.com/"><img src="img/clever-cloud-red-1200w.png" class="img-responsive" style="height: 2em; display: inline-block; vertical-align: middle;"></a>! Code is available on <a href="https://github.com/helloexoworld/helloexo.world">GitHub</a><p>
+    </body>
 </html>
